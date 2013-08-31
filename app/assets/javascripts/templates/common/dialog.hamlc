@@ -1,0 +1,9 @@
+#dialog.modal.hide.fade
+  .modal-header
+    %a.close{href: "#"} ×
+    / %h3=title
+  .modal-body
+    #dialog_content
+  .modal-footer
+    %a.btn.danger.yes Yes
+    %a.btn.secondary.no No

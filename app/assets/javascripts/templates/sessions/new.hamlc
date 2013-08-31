@@ -1,0 +1,23 @@
+%form#new-session{name: "session"}
+  %fieldset
+    %legend Login
+    .control-group
+      %label.control-label{for: "email"} Email
+      .controls
+        %input#email{name: "email", type: "text"}
+
+    .control-group
+      %label.control-label{for: "password"} Pass
+      .controls
+        %input#password{name: "password", type: "password"}
+        
+    .control-group
+      %label.control-label{for: "remember_me"} Romember
+      .controls
+        %input#remember_me{name: "remember_me", type: "checkbox"}
+
+    .form-actions
+      %input#new-notify.btn.btn-primary{type: "submit"}
+
+    %p
+      %a{href: '#/signup'} Register

@@ -1,0 +1,7 @@
+%ul.nav.pull-right
+  - if @signed_in
+    %li 
+      %a{href: "#/signout"} Logout
+  - else
+    %li 
+      %a{href: "#/signin"} Login
